@@ -1,7 +1,24 @@
+@font-face {
+    font-family: "starWars";
+    src: url("/assets/fonts/StarJedi.woff2") format("woff2"),
+    url("/assets/fonts/StarJedi.woff") format("woff"),
+    url("/assets/fonts/StarJedi.eot") format("eot"),
+    url("/assets/fonts/StarJedi.ttf") format("ttf");
+   }
+
 body {
+    font-family: 'starWars';
     margin: 0;
     padding: 0;
     background-image: url(/assets/img/wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+h2 {
+
+    font-size: 56px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+    text-shadow: 2px 2px 7px #000000;
 }
